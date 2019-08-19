@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ecr:GetDownloadUrlForLayer",
+                "ecr:GetAuthorizationToken",
+                "codecommit:GitPull",
+                "ecr:UploadLayerPart",
+                "s3:GetBucketAcl",
+                "logs:CreateLogGroup",
+                "logs:PutLogEvents",
+                "ecr:PutImage",
+                "s3:GetObject",
+                "s3:PutObject",
+                "logs:CreateLogStream",
+                "ecr:BatchGetImage",
+                "ecr:CompleteLayerUpload",
+                "s3:GetBucketLocation",
+                "ecr:InitiateLayerUpload",
+                "s3:GetObjectVersion",
+                "ecr:BatchCheckLayerAvailability"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
